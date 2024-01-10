@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/> <!--this is for the icons that we will use later-->
+  <link rel="stylesheet" href="main.css">  <!--link to you your own css file-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+  <title>Manchester</title> <!-- rename your location-->
+</head>
+
+<body>
+
+    <div class="topnav">
+        <z>
+        <a href="index.html">
+            <img class="logo" src="LOGO.png" alt="BritCityScores Logo">
+        </a>
+        </z>
+        <z href="#" class="navbar__link">
+            <ul class="nav-links">
+                <li><span class="material-icons">favorite</span><a href="Cambridge.html">Top Locations</a></li>
+                <li><span class="material-icons">description</span><a href="London.html">New Reviews</a></li>
+                <li><button class="sign-in-button" data-bs-toggle="modal" data-bs-target="#signInModal" data-toggle="tooltip" title="Sign into your profile">Sign In</button></li>
+                
+            </ul>
+        </z>
+    </div>
+
+    
+    <div class="title-box">
+        <h1>Manchester</h1> <!--change name of your location-->
+    </div>
+    <img src="manchesterskyline.jpg" alt="Manchester Skyline" class="headimage"> <!--change to your image file location-->
+        
+    <div class="info-section">
+        <div class="history-box">
+            <h2>History and Highlights</h2>
+            <p>Manchester is a town with two well-known sports team and a diverse community with many different backgrounds. The town is full of amazing places to visit with lots of history.</p>
+        </div>
+        <div class="quick-links-box">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#things-to-do">Things to Do</a></li>
+                <li><a href="#places-to-eat">Places to Eat</a></li>
+                <li><a href="#get-here">How to Get Here</a></li>
+            </ul>
+        </div>
+    </div>
+   
+    
+    <div class="section-title-box" id="things-to-do">  <!--the id important to ensure the "Quick Links work"-->
+        <h2><span class="material-icons">theater_comedy</span> Things to Do </h2>
+    </div>
+    
+
+        <div class="row border-row mb-4">
+            <div class="col-md-3 img-container">
+                <img src="sciencemuseum.jpg" alt="" class="img-fluid" width="100%"> <!--change to your image file location-->
+            </div>
+            <div class="col-md-9">
+                <a href="https://www.scienceandindustrymuseum.org.uk/">
+                    <h3>Science and Industry Museum</h3>
+                </a>
+                <p>A historical site connected to the 19th century.<span id="dots1">...</span><span id="more1"> The historic site is a connection between scientific theory and its real-world application. One event that is well-known is the Manchester Science Festival. This event brings people of all ages together showcasing research and innovation from top scientist in the region.</span></p>
+                <button onclick="myFunction1()" id="myBtn1">Read more</button></p>
+            </div>
+            <script src="manchester.js"></script>   <!--link to you your own javascript file-->
+        </div>
+
+        <div class="row border-row mb-4">
+            <div class="col-md-3 img-container">
+                <img src="themanchestermuseum.jpg" alt="Manchester Museum" class="img-fluid" width="100%">
+            </div>
+            <div class="col-md-9">
+                <a href="https://www.museum.manchester.ac.uk/">
+                    <h3>Manchester Museum</h3>
+                </a>
+                <p>The Manchester Museum is one of the largest university museums in the United Kingdom being over 130 years old.<span id="dots2">...</span><span id="more2"> This historic, original neo-Gothic building was designed by Alfred Waterhouse (1830-1905). It holds nearly 4.5 million objects from the natural sciences and human culture. The place has always been apart of research and learning and is critical to the city's research today. </span></p>
+                <button onclick="myFunction2()" id="myBtn2">Read more</button></p>
+            </div>
+            <script src="manchester.js"></script>
+        </div>
+        
+        <div class="row border-row mb-4">
+            <div class="col-md-3 img-container">
+                <img src="manchestercathedral.jpg" alt="Manchester Cathedral" class="img-fluid" width="100%">
+            </div>
+            <div class="col-md-9">
+                <a href="https://www.manchestercathedral.org/">
+                    <h3>Manchester Cathedral</h3>
+                </a>
+                <p> A church with a long withstanding starting in the 7th century.<span id="dots3">...</span><span id="more3"> A church with a mission of helping the community where everyone is welcome. There are many ways to get involve in helping the community such as events and charity work. </span></p>
+                <button onclick="myFunction3()" id="myBtn3">Read more</button></p></p>
+            </div>
+        </div>
+
+    
+    <div class="section-title-box" id="places-to-eat"> 
+        <h2><span class="material-icons">restaurant_menu</span>  Places to Eat </h2>
+    </div>
+    
+
+    <div class="places-to-eat-box">
+        <div class="row">
+            <div class="col-md-4 text-center rounded">
+                <div class="restaurant">
+                    <a href="https://www.thewhitehart.co.uk/" target="_blank" data-toggle="tooltip" title="This pub serves wonderful cuisine. Click here to make a booking">
+                        <img src="thebrasserie.jpg" alt="The Brasserie" width=100%>  <!--change to your image file location and external weblink-->
+                    </a>
+                    <h3>The White Hart Inn at Lydgate</h3>
+                    <p>Rating: ★★★★★</p>
+                    <p> Cost: £££ </p>
+                </div>
+            </div>
+
+            <div class="col-md-4 text-center">
+                <div class="restaurant">
+                    <a href="" target="_blank" data-toggle="tooltip" title=" This patisserie has wonderful desserts. Click here to make a booking">
+                    <img src="delghtfulbanoffeepie.jpg" alt="Banoffee Pie" width=90%>  <!--change to your image file location and external weblink-->
+                    </a>
+                    <h3>Lilly's Patisserie & Bistro</h3>
+                     <p>Rating: ★★★★</p>
+                     <p>Cost: ££</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 text-center rounded">
+                <div class="restaurant">
+                    <a href="https://www.facebook.com/NatsBombayKitchen/" target="_blank"data-toggle="tooltip" title="Authentic, Fresh, Home-cooked Indian Food. Click here to make a booking" >
+                    <img src="newseatingarea.jpg" alt="" width=90%>  <!--change to your image file location and external weblink-->
+                    </a>
+                    <h3>Nat's Bombay Kitchen
+                    </h3>
+                    <p>Rating: ★★★★★</p>
+                    <p>Cost: £££ </p>
+                </div>
+            </div>
+
+            <script>
+                $(document).ready(function(){
+                    $('[data-toggle="tooltip"]').tooltip();
+                })
+            </script>
+        </div>
+    </div>
+
+    
+    <div class="section-title-box" id="get-here">  <!--Using Bootstrap accordion-->
+        <h2>How to Get Here</h2>
+    </div>
+    
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne" style="font-weight:600; font-size:25px">
+                By Road
+                </button>
+            </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Manchester is accessible via the M60. The  motorways connected to the M60 are the M56 (to the airport, Chester and the M6 southbound to Birmingham), the M61 (to Bolton, Preston and the M6 northbound to Lancaster), the M62 (west to Liverpool and east to Leeds and Kingston upon Hull), the M66 (to Bury) and the M67. </div>
+                </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo" style="font-weight:600; font-size:25px">
+                  By Train
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">You can get to Manchester via any trains. The main train stations to get off are Manchester Victoria, Manchester Picadilly or Manchester Oxford Road.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree" style="font-weight:600; font-size:25px">
+                  By Air
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Manchester Airport has a dedicated railway station and metrolink. The drive to the airport is 20-minute drive from Manchester city centre and is reached by the M56 motorway, with a dedicated approach road from the motorway at junction 5.</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+    </div>
+
+    <div class="bottomnav2">
+        <i>
+            <a href="index.html">
+                <img class="logo" src="LOGO.png" alt="BritCityScores Logo">
+            </a>
+                
+                <i href="#" class="navbar__link">
+                    <ul class="nav-links">
+                        <li><a href="About.html">About Us</a></li>
+                        <li><a href="ContactUs.html">Contact Us</a></li>
+                    </ul>
+        </i>
+    </div>     
+    
+    
+<footer class="footer">
+   <p>  © Copyright WebDev Group 6 | Code First Girls 2024 | </p> 
+</footer>
+
+
+
+</body>
+
+</html>

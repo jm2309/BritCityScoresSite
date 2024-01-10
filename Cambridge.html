@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/> <!--this is for the icons that we will use later-->
+  <link rel="stylesheet" href="/main.css">  <!--link to you your own css file-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+  <title>Cambridge</title> <!-- rename your location-->
+</head>
+
+<body>
+
+
+
+    <div class="modal fade" id="signInModal" tabindex="-1" aria-labelledby="signInModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="signInModalLabel">Sign In</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <!-- Your sign-in form goes here -->
+              <form>
+                <div class="mb-3">
+                  <label for="UserID" class="form-label">UserID</label>
+                  <input type="text" class="form-control" id="username" placeholder="Enter your UserID">
+                </div>
+                <div class="mb-3">
+                  <label for="userId" class="form-label">Password</label>
+                  <input type="text" class="form-control" id="userId" placeholder="Enter your password">
+                </div>
+                <button type="button" class="btn btn-primary">Log In</button>
+              </form>
+              <p class="mt-3">Don't have an account? <a href="registration.html">Register here</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+        <div class="topnav">
+            <z>
+            <a href="index.html">
+                <img class="logo" src="LOGO.png" alt="BritCityScores Logo">
+            </a>
+            </z>
+            <z href="#" class="navbar__link">
+                <ul class="nav-links">
+                    <li><span class="material-icons">favorite</span><a href="Cambridge.html">Top Locations</a></li>
+                    <li><span class="material-icons">description</span><a href="London.html">New Reviews</a></li>
+                    <li><button class="sign-in-button" data-bs-toggle="modal" data-bs-target="#signInModal" data-toggle="tooltip" title="Sign into your profile">Sign In</button></li>
+                    
+                </ul>
+            </z>
+        </div>
+
+
+
+    <div class="title-box">
+        <h1>CAMBRIDGE</h1> <!--change name of your location-->
+    </div>
+    <img class="header" src="cambridgehead.jpg" alt="Cambridge Landscape" class="headimage"> <!--change to your image file location-->
+        
+    <div class="info-section">
+        <div class="history-box">
+            <h2>History and Highlights</h2>
+            <p>Nestled along the serene River Cam, Cambridge is a city steeped in history, boasting the prestigious University of Cambridge founded in 1209. This scholarly haven is adorned with architectural gems such as the iconic King's College Chapel and the historic Bridge of Sighs, creating a captivating tapestry of academic legacy and timeless beauty that enchants visitors from around the globe.</p>
+        </div>
+        <div class="quick-links-box">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#things-to-do">Things to Do</a></li>
+                <li><a href="#places-to-eat">Places to Eat</a></li>
+                <li><a href="#get-here">How to Get Here</a></li>
+            </ul>
+        </div>
+    </div>
+   
+    
+    <div class="section-title-box" id="things-to-do">  <!--the id important to ensure the "Quick Links work"-->
+        <h2><span class="material-icons">theater_comedy</span> Things to Do </h2>
+    </div>
+    
+
+        <div class="row border-row mb-4">
+            <div class="col-md-3 img-container">
+                <img src="punt.jpg" alt="Adventure Island" class="img-fluid" width="100%"> <!--change to your image file location-->
+            </div>
+            <div class="col-md-9">
+                <h3>Punting</h3>
+                <p>Punting along the tranquil River Cam is an essential Cambridge experience, where visitors can leisurely glide on flat-bottomed boats guided by skilled punters using long poles.
+
+
+
+
+
+                    <span id="dots1">...</span><span id="more1">  As you drift past the picturesque college Backs and under charming bridges, punting provides a serene and quintessentially Cambridge way to absorb the city's rich history and stunning architecture. </span></p>
+                <button onclick="myFunction1()" id="myBtn1">Read more</button></p>
+            </div>
+            <script src="southend.js"></script>   <!--link to you your own javascript file-->
+        </div>
+
+        <div class="row border-row mb-4">
+            <div class="col-md-9">
+                <h3 >Botanical Garden</h3>
+                <p>The Cambridge University Botanic Garden is a verdant oasis, spanning 40 acres and offering a diverse collection of over 8,000 plant species. <span id="dots2">...</span><span id="more2">Established in 1762, this botanical haven not only showcases the beauty of meticulously curated landscapes but also serves as an educational hub, providing insight into plant conservation and biodiversity. Visitors can meander through themed gardens, explore glasshouses featuring exotic flora, and revel in the peaceful ambiance that makes the Cambridge Botanic Garden a horticultural treasure in the heart of the city. </span></p>
+                <button onclick="myFunction2()" id="myBtn2">Read more</button></p>
+            </div>
+            <script src="southend.js"></script>
+            <div class="col-md-3 img-container">
+                <img src="botanic.jpg" alt="Botanical Garden" class="img-fluid" width="100%">
+            </div>
+        </div>
+        
+        <div class="row border-row mb-4">
+            <div class="col-md-3 img-container">
+                <img src="market.jpg" alt="Cambridge Market" class="img-fluid" width="100%">
+            </div>
+            <div class="col-md-9">
+                <h3>Cambridge Market</h3>
+                <p>Cambridge Market is a bustling and vibrant hub nestled in the heart of the city, offering a delightful array of stalls and vendors. <span id="dots3">...</span><span id="more3"> From fresh produce and local crafts to international cuisine and unique finds, the market provides a sensory feast for visitors, creating a lively atmosphere where locals and tourists alike can immerse themselves in the diverse offerings and vibrant energy of this historical marketplace. </span></p>
+                <button onclick="myFunction3()" id="myBtn3">Read more</button></p></p>
+            </div>
+        </div>
+
+    
+    <div class="section-title-box" id="places-to-eat"> 
+        <h2><span class="material-icons">restaurant_menu</span>  Places to Eat </h2>
+    </div>
+    
+
+    <div class="places-to-eat-box">
+        <div class="row">
+            <div class="col-md-4 text-center rounded">
+                <div class="restaurant">
+                    <a href="https://www.oldbicycleshop.com/" target="_blank" data-toggle="tooltip" title="This restaurant serves a delicious Afternoon Tea. Click here to make a booking">
+                        <img src="oldbicycle.jpg" alt="Roslin Tea" width=100%>  <!--change to your image file location and external weblink-->
+                    </a>
+                    <h3>The Old Bicycle Shop</h3>
+                    <p>Rating: ★★★★★</p>
+                    <p> Cost: £££ </p>
+                </div>
+            </div>
+
+            <div class="col-md-4 text-center">
+                <div class="restaurant">
+                    <a href="http://www.trinitycambridge.co.uk/" target="_blank" data-toggle="tooltip" title=" British gastro pub and locally caught seafood at it's finest. Click here to make a booking">
+                    <img src="trinity.jpg" alt="Peterboat" width=90%>  <!--change to your image file location and external weblink-->
+                    </a>
+                    <h3>Trinity</h3>
+                     <p>Rating: ★★★★</p>
+                     <p>Cost: ££</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 text-center rounded">
+                <div class="restaurant">
+                    <a href="https://www.thepuntercambridge.com/" target="_blank"data-toggle="tooltip" title="Luxury Chinese food with Dim Sum as its signature. Click here to make a booking" >
+                    <img src="punter.jpg" alt="PearlDragon" width=90%>  <!--change to your image file location and external weblink-->
+                    </a>
+                    <h3>The Punter</h3>
+                    <p>Rating: ★★★★★</p>
+                    <p>Cost: £££ </p>
+                </div>
+            </div>
+
+            <script>
+                $(document).ready(function(){
+                    $('[data-toggle="tooltip"]').tooltip();
+                })
+            </script>
+        </div>
+    </div>
+
+    
+    <div class="section-title-box" id="get-here">  <!--Using Bootstrap accordion-->
+        <h2>How to Get Here</h2>
+    </div>
+    
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne" style="font-weight:600; font-size:25px">
+                By Road
+                </button>
+            </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Approaching Cambridge by car, the M11 motorway provides a direct route from London, offering a smooth and efficient journey. Alternatively, those coming from the north can access Cambridge via the A14, connecting the city to major road networks and ensuring convenient access from various directions. </div>
+                </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo" style="font-weight:600; font-size:25px">
+                  By Train
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Cambridge is well-connected by train, with regular services from London King's Cross taking approximately an hour. Additionally, trains from various cities across the country, including Birmingham and Norwich, provide convenient and efficient access to this historic city.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree" style="font-weight:600; font-size:25px">
+                  By Air
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Cambridge does not have its own commercial airport; however, travelers can access the city via the nearby London Stansted Airport, which is approximately 30 miles away. From Stansted, visitors can utilize various transportation options, including trains and buses, for a straightforward journey to Cambridge.</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+    </div>
+
+    
+    <div class="bottomnav2">
+        <i>
+            <a href="index.html">
+                <img class="logo" src="LOGO.png" alt="BritCityScores Logo">
+            </a>
+                
+                <i href="#" class="navbar__link">
+                    <ul class="nav-links">
+                        <li><a href="About.html">About Us</a></li>
+                        <li><a href="ContactUs.html">Contact Us</a></li>
+                    </ul>
+        </i>
+    </div>   
+    
+<footer class="footer">
+   <p>  © Copyright WebDev Group 6 | Code First Girls 2024 | </p> 
+</footer>
+
+
+
+</body>
+
+</html>

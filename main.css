@@ -1,0 +1,278 @@
+
+html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-decoration: none
+}
+
+.header {
+  background-color:white;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.topnav {
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+a{
+  text-decoration: none!important;
+  color:slategray!important;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+z {
+  display: inline-block;
+  
+
+}
+
+a{
+  text-decoration: none;
+  color: slategray;
+}
+
+/* Style the links inside the navigation bar */
+.topnav z {
+  float: right;
+  color: slategray;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+z ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  /*padding: 10px 15px;*/
+}
+
+z li{
+  padding: 10px 15px;
+  text-decoration: none;
+  list-style: none;
+
+}
+ul{
+  list-style: none;
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+/* Change the color of links on hover */
+.topnav z:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav z.active {
+  background-color: #04AA6D;
+  color: white;
+
+}
+
+.navbar__link{
+  padding-top: 10px;
+}
+
+
+
+.logo {
+  width: 100px;
+  height: auto;
+  vertical-align: middle;
+}
+
+.header{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+
+.sign-in-button {
+  background-color: slategray; 
+  padding: 5px;
+
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  vertical-align: middle;
+  border-radius: 15px;
+}
+
+.title-box {
+  text-align: center;
+  color: white;
+  background-color: rgb(112, 83, 145);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px ;
+}
+
+.headimage {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.info-section {
+  margin-top: 10px;
+   display: flex;
+}
+
+.history-box {
+  flex: 1;
+  font-size: larger;
+  color: darkslategray;
+  height: 200px;
+  overflow-y: auto;
+}
+.quick-links-box {
+  border-style: double;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: purple;
+  margin: 10px;
+  height: 200px;
+}
+
+.section-title-box {
+  background-color: rgb(195, 143, 201);
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+}
+
+
+.border-row {
+  border-bottom: 2px solid #e4dae4; 
+  padding-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px; 
+}
+
+.things-to-do-box {
+  font-size: larger;
+  color: darkslategray;
+}
+
+#more {display: none;}
+
+.places-to-eat-box {
+  font-size: large;
+  font-weight:bold;
+  color: slategray;
+  padding: 20px
+}
+
+img {padding: 10px}
+
+.accordion {
+  font-size: larger;
+}
+
+
+.footer {
+  background-color: white;
+  margin:20px;
+  padding: 20px;
+  font-size: large;
+  text-align: center;
+}
+
+i{
+  background-color: white;
+}
+
+.topnav i {
+  float: right;
+  color: slategray;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+i ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  float: right;
+  font-style: normal;
+  /*padding: 10px 15px;*/
+}
+
+i li{
+ padding-right: 20px;
+ padding-top: 30px;
+}
+
+
+i {
+  color: slategray;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 50px;
+
+}
+
+
+
+
+a img{
+  width: 250px;
+  height: 250px;
+
+}
+
+.img-container img{
+  height: 200px;
+  width: auto;
+
+
+}

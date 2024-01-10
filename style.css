@@ -1,0 +1,460 @@
+/* Add a black background color to the top navigation */
+html {
+  box-sizing: border-box;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+  text-decoration: none!important;
+  color:slategray!important;
+}
+
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .sign-in-button {
+    background-color: slategray; 
+    padding: 5px;
+
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    vertical-align: middle;
+    border-radius: 15px;
+}
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  
+  z {
+    display: inline-block;
+    
+  
+  }
+
+  a{
+    text-decoration: none;
+    color: slategray;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav z {
+    float: right;
+    color: slategray;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  z ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    /*padding: 10px 15px;*/
+  }
+
+  z li{
+    padding: 10px 15px;
+  }
+
+  button {
+    background-color: slategrey; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 20px;
+  }
+  .logo {
+    float: left;
+    width: 100px;
+    height: auto;
+    vertical-align: middle;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav z:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav z.active {
+    background-color: #04AA6D;
+    color: white;
+
+  }
+
+  .navbar__link{
+    padding-top: 10px;
+  }
+  
+  .text-box{
+    padding-left: 10%;
+
+  }
+
+  input{
+    margin: 0px 0px 0px 20px;
+    padding-left: 15px;
+    
+  }
+
+  .map{
+    padding-right: 40px;
+    padding-top: 30px;
+  }
+
+  b{
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-direction: row;
+    background-color: #e6ccff;
+    background-image: url(BANNER.jpg);
+    padding-bottom: 70px;
+    justify-content: space-between;
+    align-items: center;
+
+
+  }
+
+
+  .heading{
+    color: slategray;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+  }
+
+bc{
+  display: flex;
+  flex-direction: column;
+
+}
+
+c ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  color: slategray;
+  
+  text-align: center;
+}
+.rating-icons span{
+    font-size:30px !important;
+    transform: scale(2);
+}
+
+.rating-icons div{
+  font-size:15px !important;
+}
+
+.location-text{
+  padding-top: 20px;
+}
+
+.loc-head{
+  padding-top: 20px;
+}
+
+  c li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+  }
+
+ 
+
+  .location-text{
+    font-size: 8px;
+  }
+
+
+  b h1{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 90px 0px 30px 20px;
+  }
+
+
+e{
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+  flex-direction: column;
+  background-color: #e6ccff;
+  padding-top: 70px;
+  justify-content: center;
+  align-items: center;
+  background-image: url(BANNER.jpg);
+  background-size: cover;
+ }
+
+ ea{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+ }
+
+ eb{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+ }
+
+ea span{
+  transform: scale(2); 
+}
+
+eb span{
+  transform: scale(2); 
+}
+
+ebb span{
+  transform: scale(1); 
+}
+
+ebb{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: lightyellow;
+}
+
+.review{
+  padding-top: 30px;
+  font-size: 20px;
+  padding-bottom: 50px;
+  font-style: italic;
+}
+
+f{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: slategray;
+}
+
+f span{
+  transform: scale(2); 
+}
+
+f h1{
+  padding-left: 15px;
+}
+
+.g-ims{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 30px;
+
+
+}
+.locim {
+  width: 300px;
+  height: auto;
+  vertical-align: middle;
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+
+g img{
+  border-radius: 30%;
+
+}
+
+g li{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  color: slategray;
+}
+
+.revtext{
+  font-size: 30px;
+}
+
+.revtextlong{
+  font-size: 15px;
+  text-align: center;
+}
+
+h img{
+  width: 600px;
+  height: auto;
+  vertical-align: middle;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+h{
+  display: flex;
+  background-color: #e6ccff;
+  background-image: url(BANNER.jpg);
+  border-radius: 10px;
+  overflow: hidden;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding-right: 20px;
+}
+
+i{
+  background-color: white;
+}
+
+.topnav i {
+  float: right;
+  color: slategray;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
+
+
+
+i ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  float: right;
+  font-style: normal;
+  /*padding: 10px 15px;*/
+}
+
+i li{
+ padding-right: 20px;
+ padding-top: 30px;
+}
+
+
+i {
+  color: slategray;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 50px;
+
+}
+
+.bottomnav2{
+  position:fixed;
+  bottom:0;
+  width: 60%;
+}
+
+.About{
+  display: flex;
+  color: black;
+  justify-content: space-between;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  padding: 100px 0px 0px 100px;
+}
+
+
+.CFG {
+  float: left;
+  width: 250px;
+  height: auto;
+  vertical-align: middle;
+}
+
+.Contact{
+  display: flex;
+  color: black;
+  justify-content: space-between;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  padding: 50px 100px 100px 100px;
+}
+
+.ContactIm {
+  float: right;
+  width: 300px;
+  height: auto;
+  vertical-align: middle;
+  border-radius: 10px;
+
+}
+
+
+ul{
+  list-style: none;
+}
+
+.Contact li{
+  padding-bottom: 20px;
+  font-size: large;
+}
+
+.Contact h1{
+  padding-bottom: 20px;
+}
