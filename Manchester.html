@@ -19,21 +19,49 @@
 
 <body>
 
-    <div class="topnav">
-        <z>
-        <a href="index.html">
-            <img class="logo" src="LOGO.png" alt="BritCityScores Logo">
-        </a>
-        </z>
-        <z href="#" class="navbar__link">
-            <ul class="nav-links">
-                <li><span class="material-icons">favorite</span><a href="Cambridge.html">Top Locations</a></li>
-                <li><span class="material-icons">description</span><a href="London.html">New Reviews</a></li>
-                <li><button class="sign-in-button" data-bs-toggle="modal" data-bs-target="#signInModal" data-toggle="tooltip" title="Sign into your profile">Sign In</button></li>
-                
-            </ul>
-        </z>
-    </div>
+   
+    <div class="modal fade" id="signInModal" tabindex="-1" aria-labelledby="signInModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="signInModalLabel">Sign In</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <!-- Your sign-in form goes here -->
+              <form>
+                <div class="mb-3">
+                  <label for="UserID" class="form-label">UserID</label>
+                  <input type="text" class="form-control" id="username" placeholder="Enter your UserID">
+                </div>
+                <div class="mb-3">
+                  <label for="userId" class="form-label">Password</label>
+                  <input type="text" class="form-control" id="userId" placeholder="Enter your password">
+                </div>
+                <button type="button" class="btn btn-primary">Log In</button>
+              </form>
+              <p class="mt-3">Don't have an account? <a href="registration.html">Register here</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+        <div class="topnav">
+            <z>
+            <a href="index.html">
+                <img class="logo" src="LOGO.png" alt="BritCityScores Logo">
+            </a>
+            </z>
+            <z href="#" class="navbar__link">
+                <ul class="nav-links">
+                    <li><span class="material-icons">favorite</span><a href="Cambridge.html">Top Locations</a></li>
+                    <li><span class="material-icons">description</span><a href="London.html">New Reviews</a></li>
+                    <li><button class="sign-in-button" data-bs-toggle="modal" data-bs-target="#signInModal" data-toggle="tooltip" title="Sign into your profile">Sign In</button></li>
+                    
+                </ul>
+            </z>
+        </div>
 
     
     <div class="title-box">
